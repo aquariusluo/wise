@@ -1,0 +1,6 @@
+type ExampleEntity @entity {
+  id: ID!
+  count: BigInt!
+  investmentDay: BigInt! # uint256
+  randomSupply: BigInt! # uint256
+}
